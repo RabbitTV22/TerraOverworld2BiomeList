@@ -1,0 +1,15 @@
+{
+  "name": "terra-overworld-2-biome-list",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "dev": "npm run generate && vite",
+    "build": "npm run generate && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0",
+    "vite": "^6.0.0"
+  }
+}
